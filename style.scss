@@ -1,0 +1,137 @@
+$h1color :#E84855 ;
+$h1fontsize : 100px;
+$marginauto : auto;
+$bodybg :#403F4C;
+$bodyfont : Verdana;
+$mycolor : #F9DC5C;
+$myfontsize : 12px;
+$letterspacing : 5px;
+$fc : fit-content;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align:center;
+    background-color:$bodybg;
+    font-family:$bodyfont;
+    padding: 0;
+    margin:0;
+}
+
+html {
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+#nav {
+    height:50px;
+    width: 100%;
+    margin-top: 0px;
+    padding:0px;   
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+
+}
+
+#nav {
+    ul {
+       list-style: none;
+    }
+    li {
+        display:inline-block;
+        
+    }
+    a
+    {
+        display:block;
+        padding:5px;
+        background-color: $h1color;
+        color: white;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+    a:hover {
+        background-color:black;
+        transition: 300ms ease-in-out;
+    }
+}
+
+#firstpage {
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    margin-top:0px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+
+h1.slogan {
+    color:$h1color;
+    font-size:$h1fontsize;
+    padding: 0px;
+    margin-top: 200px;
+    margin: auto;
+
+}
+
+h2.slogan2 {
+    display:block;
+    background-color: black;
+    padding:3px;
+    box-shadow: 2px 2px 2px white;
+    color:white;
+    font-size:$myfontsize;
+    letter-spacing: $letterspacing;
+    width:600px;
+    margin: auto;
+    margin-top: 30px;
+
+ 
+}
+
+.pages {
+    height:500px;
+    width: 100%;
+    background-color: #E84855;
+    margin-top: 1px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1.pages {
+    font-size: 50px;
+    color:white;
+}
+
+
+#gotop {
+    padding:5px;
+    height:40px;
+    width:fit-content;
+    position: fixed;
+    top:50%;
+    right:0px;
+    background-color:$h1color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gotop:hover {
+    background-color:black;
+    cursor: pointer;
+ 
+}
+
+a.top {
+    text-decoration: none;
+    color: white;
+}
+
+
